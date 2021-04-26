@@ -184,3 +184,15 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+scholar:
+  style: assets/bibliography/ieee-with-url.csl
+  locale: en
+
+  sort_by: year,month
+  order: descending
+  bibliography_list_tag: ul
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details

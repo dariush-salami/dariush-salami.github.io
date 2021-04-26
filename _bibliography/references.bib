@@ -1,0 +1,67 @@
+---
+---
+References
+==========
+
+@article{momtazi2019joint,
+  title={A Joint Semantic Vector Representation Model for Text Clustering and Classification},
+  author={Momtazi, S and Rahbar, A and Salami, D and Khanijazani, I},
+  journal={Journal of AI and Data Mining},
+  volume={7},
+  number={3},
+  pages={443--450},
+  year={2019},
+  doi={10.22044/JADM.2019.7400.1876},
+  link={http://jad.shahroodut.ac.ir/article_1457.html},
+  publisher={Shahrood University of Technology},
+  abstract = {Text clustering and classification are two main tasks of text mining. Feature selection plays the key role in the quality of the clustering and classification results. Although word-based features such as term frequency-inverse document frequency (TF-IDF) vectors have been widely used in different applications, their shortcoming in capturing semantic concepts of text motivated researches to use semantic models for document vector representations. Latent Dirichlet allocation (LDA) topic modeling and doc2vec neural document embedding are two well-known techniques for this purpose. In this paper, we first study the conceptual difference between the two models and show that they have different behavior and capture semantic features of texts from different perspectives. We then proposed a hybrid approach for document vector representation to benefit from the advantages of both models. The experimental results on 20newsgroup show the superiority of the proposed model compared to each of the baselines on both text clustering and classification tasks. We achieved 2.6% improvement in F-measure for text clustering and 2.1% improvement in F-measure in text classification compared to the best baseline model.},
+  keywords = {Text mining,Semantic representation,Topic modeling,Neural document embedding},
+}
+
+@article{palipana2021pantomime,
+  title={Pantomime: Mid-Air Gesture Recognition with Sparse Millimeter-Wave Radar Point Clouds},
+  author={Palipana, Sameera and Salami, Dariush and Leiva, Luis A and Sigg, Stephan},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={5},
+  number={1},
+  pages={1--27},
+  year={2021},
+  link={https://dl.acm.org/doi/10.1145/3448110},
+  doi={10.1145/3448110},
+  publisher={ACM New York, NY, USA},
+  abstract={We introduce Pantomime, a novel mid-air gesture recognition system exploiting spatio-temporal properties of millimeter-wave radio frequency (RF) signals. Pantomime is positioned in a unique region of the RF landscape: mid-resolution mid-range high-frequency sensing, which makes it ideal for motion gesture interaction. We configure a commercial frequency-modulated continuous-wave radar device to promote spatial information over the temporal resolution by means of sparse 3D point clouds and contribute a deep learning architecture that directly consumes the point cloud, enabling real-time performance with low computational demands. Pantomime achieves 95% accuracy and 99% AUC in a challenging set of 21 gestures articulated by 41 participants in two indoor environments, outperforming four state-of-the-art 3D point cloud recognizers. We further analyze the effect of the environment in 5 different indoor environments, the effect of articulation speed, angle, and the distance of the person up to 5m. We have publicly made available the collected mmWave gesture dataset consisting of nearly 22,000 gesture instances along with our radar sensor configuration, trained models, and source code for reproducibility. We conclude that pantomime is resilient to various input conditions and that it may enable novel applications in industrial, vehicular, and smart home scenarios.}
+}
+
+@inproceedings{salami2020motion,
+  title={Motion Pattern Recognition in 4D Point Clouds},
+  author={Salami, Dariush and Palipana, Sameera and Kodali, Manila and Sigg, Stephan},
+  booktitle={2020 IEEE 30th International Workshop on Machine Learning for Signal Processing (MLSP)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE},
+  abstract={We address an actively discussed problem in signal processing, recognizing patterns from spatial data in motion. In particular, we suggest a neural network architecture to recognize motion patterns from 4D point clouds. We demonstrate the feasibility of our approach with point cloud datasets of hand gestures. The architecture, PointGest, directly feeds on unprocessed timelines of point cloud data without any need for voxelization or projection. The model is resilient to noise in the input point cloud through abstraction to lower-density representations, especially for regions of high density. We evaluate the architecture on a benchmark dataset with ten gestures. PointGest achieves an accuracy of 98.8%, outperforming five state-of-the-art point cloud classification models.},
+  link={https://ieeexplore.ieee.org/abstract/document/9231569},
+  doi={10.1109/MLSP49062.2020.9231569}
+}
+
+@article{salami2020recurrent,
+  title={Recurrent convolutional neural networks for poet identification},
+  author={Salami, Dariush and Momtazi, Saeedeh},
+  journal={Digital Scholarship in the Humanities},
+  year={2020},
+  link={https://academic.oup.com/dsh/advance-article-abstract/doi/10.1093/llc/fqz096/5836747?redirectedFrom=fulltext},
+  doi={10.1093/llc/fqz096},
+  abstract={Deep neural networks have been widely used in various language processing tasks. Recurrent neural networks (RNNs) and convolutional neural networks (CNN) are two common types of neural networks that have a successful history in capturing temporal and spatial features of texts. By using RNN, we can encode input text to a lower space of semantic features while considering the sequential behavior of words. By using CNN, we can transfer the representation of input text to a flat structure to be used for classifying text. In this article, we proposed a novel recurrent CNN model to capture not only the temporal but also the spatial features of the input poem/verse to be used for poet identification. Considering the shortcomings of the normal RNNs, we try both long short-term memory and gated recurrent unit units in the proposed architecture and apply them to the poet identification task. There are a large number of poems in the history of literature whose poets are unknown. Considering the importance of the task in the information processing field, a great variety of methods from traditional learning models, such as support vector machine and logistic regression, to deep neural network models, such as CNN, have been proposed to address this problem. Our experiments show that the proposed model significantly outperforms the state-of-the-art models for poet identification by receiving either a poem or a single verse as input. In comparison to the state-of-the-art CNN model, we achieved 9% and 4% improvements in f-measure for poem- and verse-based tasks, respectively.}
+}
+
+@inproceedings{salami2020fair,
+  title={A FAIR Extension for the MQTT Protocol},
+  author={Salami, Dariush and Streibel, Olga and Rhenius, Marcus and Sigg, Stephan},
+  booktitle={2020 16th International Conference on Mobility, Sensing and Networking (MSN)},
+  pages={10--16},
+  year={2020},
+  organization={IEEE},
+  abstract={We address the realization of the Findability, Accessibility, Interoperability, and Reusability (FAIR) data principles in an Internet of Things (IoT) application through a data transfer protocol. In particular, we propose an architecture for the Message Queuing Telemetry Transport (MQTT) protocol that validates, normalizes, and filters the incoming messages based on the FAIR principles to improve the interoperability and reusability of data. We show that our approach can significantly increase the degree of FAIRness of the system by evaluating the architecture using existing maturity indicators in the literature. The proposed architecture successfully passes 18 maturity indicators out of 22. We also evaluate the performance of the system in 4 different settings in terms the latency and dropped messages in a simulation environment. We demonstrate that the architecture not only improves the degree of FAIRness of the system but also reduces the dropped messages rate.},
+  link={https://ieeexplore.ieee.org/document/9394261},
+  doi={10.1109/MSN50589.2020.00019}
+}

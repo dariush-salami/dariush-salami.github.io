@@ -1,0 +1,32 @@
+---
+layout: page
+# The layout for paper details page
+---
+
+
+<div id="{{page.entry.key}}-materials">
+  <h3 class="text-justify">{{page.entry.title}}</h3>
+  <p class="text-justify">{{page.entry.author}}</p>
+
+  {% if page.entry.abstract %}
+  <h3>Abstract</h3>
+  <p class="text-justify">{{page.entry.abstract}}</p>
+  {% endif %}
+
+  {% if page.entry.doi %}
+  <a class="btn btn-primary" href="http://dx.doi.org/{{page.entry.doi}}" target="_blank">
+    <i class="fas fa-search" aria-hidden="true"></i>
+    DOI: {{page.entry.doi}}
+  </a>
+  {% endif %}
+
+  {% if page.entry.link %}
+  <a class="btn btn-success" href="{{page.entry.link}}" target="_blank" aria-label="Left Align">
+    <i class="fas fa-book-open" aria-hidden="true"></i> Read the Paper
+  </a>
+  {% endif %}
+
+  <h3>Bibtex</h3>
+  <pre>{{page.entry.bibtex}}</pre>
+
+</div>
