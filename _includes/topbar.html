@@ -31,10 +31,10 @@
             <span>{{ page.title }}</span>
           {% endif %}
 
-        {% elsif page.layout == 'category' or page.layout == 'tag' %}
+        {% elsif page.layout == 'category' or page.layout == 'tag' or page.layout == 'page' %}
           <span>
             <a href="{{ item | relative_url }}">
-              {{ site.data.locales[lang].tabs[item] | default: page.title }}
+              {{ site.data.locales[lang].tabs[item] | page.title }}
             </a>
           </span>
         {% endif %}

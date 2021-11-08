@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Bibliography
 icon: fas fa-graduation-cap
 order: 4
